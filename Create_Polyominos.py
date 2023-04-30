@@ -8,9 +8,6 @@ import matplotlib.pyplot as plt
 num_of_squares_list = np.linspace(1, 15, 15, dtype=int)
 
 for num_of_squares in num_of_squares_list:
-        if num_of_squares == 10:
-                continue
-
         num_of_polyominos = 0
 
         max_rows = math.ceil(num_of_squares / 2)
